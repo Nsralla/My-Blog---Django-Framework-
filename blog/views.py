@@ -77,7 +77,7 @@ def index(request):
     return HttpResponse(render(request,'blog/index.html',{'posts':latest_posts}))
 
 def all_posts(request):
-    return HttpResponse(render(request, 'blog/all-posts.html',{'all_posts':posts}))
+    return HttpResponse(render(request, 'blog/all-posts.html',{'posts':posts}))
 
 def post_details(request, slug):
     # get specifc post
