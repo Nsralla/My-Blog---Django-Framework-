@@ -13,6 +13,7 @@
 ### 📸 Screenshots
 ![Blog Screenshot](https://github.com/user-attachments/assets/69774d80-371f-48f5-a251-3cbf8bb10a68)
 ![image](https://github.com/user-attachments/assets/4eb1a8fb-66e2-40c8-95d8-caa562d8d538)
+![image](https://github.com/user-attachments/assets/6f48957a-36db-429b-b75b-d18f67925b7b)
 
 ---
 ## 📅 Last Updated Today is Monday, March 31, 2025.
