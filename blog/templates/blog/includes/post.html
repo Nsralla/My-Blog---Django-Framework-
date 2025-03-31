@@ -1,0 +1,20 @@
+{% load static %}
+{% comment %} {% block css_files %}
+  <link rel="stylesheet" href="{% static "blog/post.css" %}" />
+  <link rel="stylesheet" href="{% static "blog/all-posts.css" %}" />
+{% endblock %} {% endcomment %}
+
+<li>
+  <article class="post">
+    <a href="{% url "post-details" post.slug %}">
+      <img src="{% static "blog/images/"|add:post.image %}" alt="{{post.title}}"
+      />
+      <div class="post__content">
+        <h3>{{post.title}}</h3>
+        <p>
+          {{post.excerpt}}
+        </p>
+      </div>
+    </a>
+  </article>
+</li>
