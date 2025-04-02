@@ -1,8 +1,20 @@
 # 📝 My Blog 
-- Django Project This is a personal blogging website built with Django. It allows you to view posts, read details about each one, and showcases a basic layout using Django's template engine, static files, and URL routing. 
-## 🚀 Features
-- Homepage showing intro or highlights - All blog posts listed with titles, images, and excerpts - Detailed view for each blog post - 404 error page - Modular template structure using `base.html` - Custom CSS per page - Static image handling - Clean URL routing
---- 
+- **Django Project** — This is a personal blogging website built with Django. It allows you to view posts, read details about each one, and showcases a basic layout using Django's template engine, static files, and URL routing.  
+- The project **originally used static data**, but it has now been **upgraded to use Django models and a SQLite3 database**, making it dynamic and more scalable.
+ 
+## 🚀 Features  
+
+- Homepage showing intro or highlights  
+- All blog posts listed with titles, images, and excerpts  
+- Detailed view for each blog post  
+- 404 error page  
+- Modular template structure using `base.html`  
+- Custom CSS per page  
+- Static image handling  
+- Clean URL routing  
+- **Database-backed content** using Django models and SQLite3  
+
+--
 ## 🛠️ Setup Instructions 
 1. **Clone the repository**  ```bash git clone https://github.com/Nsralla/My-Blog---Django-Framework.git cd My-Blog---Django-Framework
 2.  **Install dependencies**  Make sure you have Python and pip installed, then run:  ```bash pip install -r requirements.txt
