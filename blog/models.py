@@ -29,6 +29,7 @@ class Post(models.Model):
     content= models.TextField(validators=[MinLengthValidator(10), MaxLengthValidator(10000)])
     author = models.ForeignKey(Author, on_delete=models.SET_NULL,null=True, related_name='posts')
     tags = models.ManyToManyField(Tag)
+    image_name = models.CharField(max_length=100, null=True)
     
     def __str__(self):
         return f"{self.title} by {self.author} on {self.date}  "
